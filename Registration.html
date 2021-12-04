@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="Contact.html">
+    <link rel="stylesheet" href="About.html">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="error">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Search Here">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="conatiner">
+            <div class="heading">
+                <h1>Registration For Sasta Flipkart </h1>
+                <form action="form.php">
+                    <div class="reg-name">
+                        <p>Enter Your Name :
+                            <input type="text" placeholder="First">
+                            <input type="text" placeholder="Middle">
+                            <input type="text" placeholder="Last">
+                        </p>
+                    </div>
+                    <div class="reg-name">
+                        <p>Father Name :
+                            <input type="text" placeholder="Father name">
+                            <input type="text" placeholder="Middle">
+                            <input type="text" placeholder="Last">
+                        </p>
+                    </div>
+                    <div class="reg-name">
+                        <p>Mother Name :
+                            <input type="text" placeholder="Mother name">
+                            <input type="text" placeholder="Middle">
+                            <input type="text" placeholder="Last">
+                        </p>
+                    </div>
+                    <div class="reg-name">
+                        <p>Date of Birth :
+                            <input type="date">
+                        </p>
+                    </div>
+                    <!-- use of radio button -->
+                    <div class="reg-name">
+                        Gender :
+                        <label for="gendermale">
+                            <input type="radio" name="gender1" value="male" id="gendermale"> Male
+                        </label>
+                        <label for="genderfemale">
+                            <input type="radio" name="gender1" value="female" id="genderfemale"> Female
+                        </label>
+                        <label for="genderother">
+                            <input type="radio" name="gender1" value="Other" id="genderother"> Other
+                        </label>
+                    </div>
+                    <!-- use of checkbox -->
+                    <div class="reg-name">
+                        How many year are you old :
+                        <input type="number" , placeholder="Age">
+                    </div>
+                    <div class="reg-name">
+                        Are you below 18 year old :
+                        <input type="checkbox" name="year" id="year1">
+                    </div>
+                    <div class="reg-name">
+                        <p>Enter your E-mail : <input type="email" placeholder="Email"></p>
+                    </div>
+                    <div class="reg-name">
+                        Moblie number :
+                        <input type="tel" placeholder="Mobile Number">
+                    </div>
+                    <div class="reg-name">
+                        Upload your image :
+                        <input type="file" accept="img">
+                    </div>
+                    <div class="reg-name">
+                        Enter your video link :
+                        <input type="url" placeholder="Video link">
+                    </div>
+                    <div class="reg-name">
+                        From where you listen about this :
+                        <select name="listen" id="listen" aria-placeholder="f">
+                            <option value="d">Choose anyone</option>
+                            <option value="A">
+                                From Friend
+                            </option>
+                            <option value="b">Internet Sources</option>
+                            <option value="c">Google Ad.</option>
+                            <option value="e">Other</option>
+                        </select>
+                    </div>
+                    <div class="reg-name">
+                        <textarea name="explain" id="explain1" cols="30" rows="10"
+                            placeholder="Explain why you want to join us">
+                        </textarea>
+                    </div>
+                    <div class="last">
+                        <input type="reset">
+                        <input type="submit">
+                    </div>
+                    <!-- <input type="range"> -->
+            </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; Mycart.com</p>
+    </footer>
+</body>
+</html>
